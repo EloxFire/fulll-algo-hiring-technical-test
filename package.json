@@ -2,6 +2,7 @@
   "name": "fizzbuzz-algo-fulll-hiring",
   "version": "1.0.0",
   "description": "fizzbuzz-algo-fulll-hiring",
+  "author": "Enzo Avagliano",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
