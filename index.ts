@@ -13,13 +13,13 @@ function fizzbuzz(number: number) {
   let i: number = 1; // On demare la boucle à 1
   while (i <= number) {
     // REGLE 1 : "if number can be divided by 3 AND 5 : display FizzBuzz;"
-    if (i % 3 === 0 && i % 5 === 0) console.log("FizzBuzz");
+    if (i % 3 === 0 && i % 5 === 0) console.log(i + " FizzBuzz");
 
     // REGLE 2 : "if number can be divided by 3: display Fizz;"
-    if (i % 3 === 0) console.log("Fizz");
+    else if (i % 3 === 0) console.log(i + " Fizz");
 
     // REGLE 3 : "if number can be divided by 5: display Buzz;"
-    if (i % 5 === 0) console.log("Buzz");
+    else if (i % 5 === 0) console.log(i + " Buzz");
 
     // REGLE 4 : "else: display the number."
     else console.log(i);
